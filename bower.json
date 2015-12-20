@@ -1,0 +1,19 @@
+{
+  "name": "my-ng-chat",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "'JonnyMo' <'mo0928@163.com'>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/JonnyMo/zhufeng",
+  "moduleType": [],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "./lib",
+    "test",
+    "tests"
+  ]
+}
