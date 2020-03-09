@@ -137,13 +137,12 @@
 	};
 
 	/**
-	 * [all 获取多个Promise实例对象成功后的值]
+	 * [all 获取多个Promise实例对象成功状态的值]
 	 * @param  {[Array]} promises [数组元素的类型可以是任意类型]
 	 * @return {[Promise]}  [返回一个新的Promise实例对象，promises中所有的promise都成功时，all返回的promise才成功]
 	 *   注意 对于promises数组中的非Promise实例对象，会被当做成功状态的promise实例来对待，值就是它自身
 	 */
 	Promise.all = function(promises) {
-
 		return new Promise((resolve, reject)=>{
 			// 统计成功的次数
 			let count = 0;	
